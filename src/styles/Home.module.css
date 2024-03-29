@@ -57,3 +57,13 @@
   border: 0;
   font-family: "Roboto", sans-serif;
 }
+
+.button {
+  background-color: #66dcc0;
+  border-width: 2px;
+  border-color: black;
+  padding: 5px;
+}
+.inputBox {
+  padding: 5px;
+}

@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import WalletContextProvider from "@/components/WalletContextProvider";
 import AppBar from "@/components/AppBar";
 import BalanceDisplay from "@/components/BalanceDisplay";
+import SolSendPanel from "@/components/SolSendPanel";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,6 +15,7 @@ export default function Home() {
       <WalletContextProvider>
         <AppBar />
         <BalanceDisplay />
+        <SolSendPanel />
       </WalletContextProvider>
     </main>
   );
